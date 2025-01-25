@@ -1,0 +1,4 @@
+LOAD STUDENTS
+temp_a <- SELECT stud_sex == 0 FROM STUDENTS
+res_a <- PROJECT stud_id, stud_age FROM temp_a
+PRINT res_a
